@@ -5,14 +5,18 @@
 }
 
 .main {
-    display: flex;
-    
-    width: 50%;
-    height: 100%;
-    border: 1px red solid;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 30px;
+}
 
-    justify-content: center;
-    align-items: center;
+img {
+    width: 40%;
+}
+
+.block-img {
+    display: flex;
+    flex-direction: row;
+}
+.end-text {
+    margin-right: auto;
+    margin-top: auto;
 }
